@@ -2212,7 +2212,12 @@ button {
   color: #ababab;
   background-color: #292d77;
 }
-.text-white .circle_social_links a:hover i {
+
+/* my css */
+
+/* css ends */
+
+.text-white .circle_social_links_1 a:hover i {
   color: #ffffff;
 }
 .text-white .author_links {
