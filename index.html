@@ -33,7 +33,6 @@
 	<!-- custom - css include -->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<style>
-		
 		@media screen and (min-width: 600px) {
 			#hey {
 				margin: 6px;
@@ -353,7 +352,8 @@
 						</li>
 						<li><a href="about.html">About</a></li>
 						<li class="dropdown">
-							<a href="portfolio_details.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Products</a>
+							<a href="portfolio_details.html" data-toggle="dropdown" aria-haspopup="true"
+								aria-expanded="false">Products</a>
 							<ul class="dropdown-menu">
 								<li><a href="service_1.html">Digital Printing</a></li>
 								<li><a href="service_2.html">Signage Solutions</a></li>
@@ -1903,13 +1903,104 @@
 	<!-- main body - end
 		================================================== -->
 
+		<h4 class="small_title">Needs Any Helps</h4>
+	<div class="brand-carousel section-padding owl-carousel" id="cr">
+		<div class="single-logo">
+			<img src="assets/images/brands/AECC (1).jpg" alt="">
+
+		</div>
+
+		<div class="single-logo">
+			<img src="assets/images/brands/Aiwa.jpg" alt="">
+		</div>
+		<div class="single-logo">
+			<img src="assets/images/brands/AFFINITY EXPRESS.jpg" alt="">
+		</div>
+		<div class="single-logo">
+			<img src="assets/images/brands/anchor.jpg" alt="">
+		</div>
+		<div class="single-logo">
+			<img src="assets/images/brands/Bajaj.jpg" alt="">
+		</div>
+		<div class="single-logo">
+			<img src="assets/images/brands/Blackberry.jpg" alt="">
+		</div>
+		<div class="single-logo">
+			<img src="assets/images/brands/Crystal.jpg" alt="">
+		</div>
+		<div class="single-logo">
+			<img src="assets/images/brands/Cut _ style.jpg" alt="">
+		</div>
+		<div class="single-logo">
+			<img src="assets/images/brands/Hero.jpg" alt="">
+		</div>
+		<div class="single-logo">
+			<img src="assets/images/brands/ICONIC 1.jpg" alt="">
+		</div>
+		<div class="single-logo">
+			<img src="assets/images/brands/ISBF.jpg" alt="">
+		</div>
+		<div class="single-logo">
+			<img src="assets/images/brands/Kastros.jpg" alt="">
+		</div>
+		<div class="single-logo">
+			<img src="assets/images/brands/Kastros.jpg" alt="">
+		</div>
+		<div class="single-logo">
+			<img src="assets/images/brands/Kastros.jpg" alt="">
+		</div>
+		<div class="single-logo">
+			<img src="assets/images/brands/Kastros.jpg" alt="">
+		</div>
+		<div class="single-logo">
+			<img src="assets/images/brands/Kastros.jpg" alt="">
+		</div>
+		<div class="single-logo">
+			<img src="assets/images/brands/kings 1.jpg" alt="">
+		</div>
+		<div class="single-logo">
+			<img src="assets/images/brands/Lal MAhal.jpg" alt="">
+		</div>
+		<div class="single-logo">
+			<img src="assets/images/brands/Mother dairy.jpg" alt="">
+		</div>
+		<div class="single-logo">
+			<img src="assets/images/brands/pepsi.png" alt="">
+		</div>
+		<div class="single-logo">
+			<img src="assets/images/brands/sebastian.jpg" alt="">
+		</div>
+		<div class="single-logo">
+			<img src="assets/images/brands/system.jpg" alt="">
+		</div>
+		<div class="single-logo">
+			<img src="assets/images/brands/valvolin.jpg" alt="">
+		</div>
+		<div class="single-logo">
+			<img src="assets/images/brands/Varun.jpg" alt="">
+		</div>
+		<div class="single-logo">
+			<img src="assets/images/brands/Wella 1.jpg" alt="">
+		</div>
+		<div class="single-logo">
+			<img src="assets/images/brands/WOK.jpg" alt="">
+		</div>
+	</div>
+
+
+
+
+
+
+
+
 
 	<!-- footer_section - start
 		================================================== -->
 	<footer class="footer_section bg_default_blue text-white clearfix">
 		<div class="container">
 
-			<div class="footer_brand_area border_bottom clearfix">
+			<!-- <div class="footer_brand_area border_bottom clearfix">
 				<div class="row align-items-center justify-content-lg-between">
 					<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
 						<div class="brand_logo">
@@ -1918,9 +2009,9 @@
 									alt="logo_not_found" style="height: 140px;">
 							</a>
 						</div>
-					</div>
+					</div> -->
 
-					<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+			<!-- <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
 						<div class="brands_list">
 							<div class="logo_image">
 								<a href="#!">
@@ -1948,7 +2039,7 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</div> -->
 
 			<div class="footer_widget_area clearfix">
 				<div class="row justify-content-lg-between justify-content-md-center justify-content-sm-center">
@@ -2129,7 +2220,23 @@
 	<!-- custom - jquery include -->
 	<script src="assets/js/custom.js"></script>
 
-
+	<script>$('.brand-carousel').owlCarousel({
+			loop: true,
+			margin: 10,
+			autoplay: true,
+			responsive: {
+				0: {
+					items: 1
+				},
+				600: {
+					items: 3
+				},
+				1000: {
+					items: 5
+				}
+			}
+		})
+	</script>
 </body>
 
 </html>

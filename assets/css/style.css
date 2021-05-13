@@ -8435,3 +8435,33 @@ blockquote .blockquote_admin i {
 /* ====================================================================================================
 9 - media screen and (max-width: 320px) - end
 ==================================================================================================== */
+body {
+  background: aliceblue;
+  }
+  .section-padding{
+  padding:20px 0px;
+  }
+  .brand-carousel {
+  background: aliceblue;
+  margin-top: 6%;
+  }
+  .owl-dots {
+  text-align: center;
+  margin-top: 4%;
+  }
+  .owl-dot {
+  display: inline-block;
+  height: 15px !important;
+  width: 15px !important;
+  background-color: #878787 !important;
+  opacity: 0.8;
+  border-radius: 50%;
+  margin: 0 5px;
+  }
+  .owl-dot.active {
+  background-color: #000 !important;
+  }
+  #cr img{
+    height: 100px;
+    width: 250px;
+  }
