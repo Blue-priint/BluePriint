@@ -7,8 +7,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
 
-		<title>Service Details - Frintem HTML5 Template</title>
-		<link rel="shortcut icon" href="assets/images/logo/favourite_icon_01.png">
+		<title>Bluepriint | Product Details</title>
+		<link rel="shortcut icon" href="assets/images/logo/only-logo.svg">
 
 		<!-- fraimwork - css include -->
 		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
@@ -32,6 +32,15 @@
 
 		<!-- custom - css include -->
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+		<style>
+		
+			@media screen and (min-width: 600px) {
+				#hey {
+					margin: 6px;
+				}
+			}
+		</style>
 
 	</head>
 
@@ -76,30 +85,58 @@
 
 		<!-- header_section - start
 		================================================== -->
-		<header class="header_section sticky_header header_default clearfix">
+		<header class="header_section sticky_header secondary_header clearfix">
 			<div class="header_top bg_light clearfix">
 				<div class="maxw_1420 container">
 					<div class="row align-items-center">
-						<div class="col-lg-8">
+						<div class="col-lg-9">
 							<ul class="header_contact_info ul_li clearfix">
-								<li><i class="far fa-map-marker-alt"></i> 20 Main Street, USA</li>
-								<li><i class="far fa-envelope-open"></i> support@gmail.com</li>
+								<li><i class="far fa-map-marker-alt"></i> B-7, First Floor, Plot No 54,
+									Rama Road Industrial Area,
+									New Delhi - 110015.
+								</li>
+								<li><i class="far fa-envelope-open"></i> print@bluepriint.in</li>
 								<li><i class="far fa-clock"></i> Sun - Monday, 09 am - 04 pm</li>
 							</ul>
 						</div>
-
-						<div class="col-lg-4">
+	
+						<div class="col-lg-3">
 							<ul class="header_items_list ul_li_right clearfix">
 								<li>
-									<ul class="primary_social_links ul_li clearfix">
-										<li><a href="#!"><i class="fab fa-facebook-f"></i></a></li>
-										<li><a href="#!"><i class="fab fa-twitter"></i></a></li>
-										<li><a href="#!"><i class="fab fa-youtube"></i></a></li>
-										<li><a href="#!"><i class="fab fa-linkedin"></i></a></li>
+	
+	
+	
+									<ul class="circle_social_links ul_li_right clearfix">
+										<li>
+											<a class="bg_facebook" href="#!">
+												<i class="fab fa-facebook-f"></i>
+												<i class="fab fa-facebook-f"></i>
+											</a>
+										</li>
+										<li>
+											<a class="bg_twitter" href="#!">
+												<i class="fab fa-twitter"></i>
+												<i class="fab fa-twitter"></i>
+											</a>
+										</li>
+										<li>
+											<a class="bg_youtube" href="#!">
+												<i class="fab fa-youtube"></i>
+												<i class="fab fa-youtube"></i>
+											</a>
+										</li>
+										<li>
+											<a class="bg_linkedin" href="#!">
+												<i class="fab fa-linkedin"></i>
+												<i class="fab fa-linkedin"></i>
+											</a>
+										</li>
 									</ul>
+	
+	
 								</li>
 								<li>
-									<div class="select_option mb-0">
+									<!-- <div class="select_option mb-0">
 										<select>
 											<option data-display="Select">Select Your Language</option>
 											<option value="English" selected>English</option>
@@ -107,43 +144,53 @@
 											<option value="Portuguese">Portuguese</option>
 											<option value="Franch">Franch</option>
 										</select>
-									</div>
+									</div> -->
 								</li>
 							</ul>
 						</div>
 					</div>
 				</div>
 			</div>
-
-			<div class="header_bottom bg_default_blue">
+	
+			<div class="header_bottom" >
 				<div class="maxw_1420 container">
 					<div class="row align-items-center">
-
+	
 						<div class="col-lg-3">
-							<div class="brand_logo">
+							<div class="brand_logo" id="hey">
 								<a href="index.html">
-									<img src="assets/images/logo/logo_01_1x.png" srcset="assets/images/logo/logo_01_2x.png 2x" alt="logo_not_found">
+									<img src="assets/images/logo/logo-with-name.svg"
+										srcset="assets/images/logo/logo-with-name.svg 2x" alt="logo_not_found"
+										style="height: 83px; width: 1593px;">
 								</a>
-
+	
 								<ul class="mobilemenu_btns_group ul_li_right clearfix">
-									<li>
-										<button type="button" class="search_btn" data-toggle="collapse" data-target="#search_body_collapse" aria-expanded="false" aria-controls="search_body_collapse">
+									<!-- <li>
+										<button type="button" class="search_btn" data-toggle="collapse"
+											data-target="#search_body_collapse" aria-expanded="false"
+											aria-controls="search_body_collapse">
 											<i class="fal fa-search"></i>
 										</button>
 									</li>
+									<li>
+										<button type="button" class="cart_btn">
+											<i class="fal fa-shopping-cart"></i>
+											<small class="cart_counter">2</small>
+										</button>
+									</li> -->
 									<li>
 										<button type="button" class="mobile_menu_btn"><i class="fal fa-bars"></i></button>
 									</li>
 								</ul>
 							</div>
 						</div>
-
+	
 						<div class="col-lg-6">
 							<nav class="main_menu clearfix">
 								<ul class="ul_li_center clearfix">
-									<li class="active has_child">
-										<a href="#!">Home</a>
-										<ul class="submenu">
+									<li>
+										<a href="index.html">Home</a>
+										<!-- <ul class="submenu">
 											<li class="has_child">
 												<a href="index_1.html">Home Page V.1</a>
 												<ul class="submenu">
@@ -172,8 +219,8 @@
 													</li>
 													<li><a href="#!">example V.2</a></li>
 													<li><a href="#!">example V.3</a></li>
-												</ul>
-											</li>
+												</ul> -->
+										<!-- </li>
 											<li class="has_child">
 												<a href="index_3.html">Home Page V.3</a>
 												<ul class="submenu">
@@ -189,20 +236,24 @@
 													<li><a href="#!">example V.3</a></li>
 												</ul>
 											</li>
-										</ul>
+										</ul> -->
 									</li>
 									<li><a href="about.html">About</a></li>
 									<li class="has_child">
-										<a href="#!">Services</a>
+										<a href="service_details.html">Products</a>
 										<ul class="submenu">
-											<li><a href="service_1.html">Service V.1</a></li>
-											<li><a href="service_2.html">Service V.2</a></li>
-											<li><a href="service_details.html">Service Details</a></li>
+											<li><a href="service_1.html">Digital Printing</a></li>
+											<li><a href="service_2.html">Signage Solutions</a></li>
+											<li><a href="service_details.html">Laser/CNC Router Cuttings</a></li>
+											<li><a href="service_details.html">Events and Exhibitions</a></li>
+											<li><a href="service_details.html">3-D Letters</a></li>
+											<li><a href="service_details.html">NamePlates</a></li>
+											<li><a href="service_details.html">LED Slim Display Frames</a></li>
 										</ul>
 									</li>
-									<li class="has_child">
-										<a href="#!">Pages</a>
-										<ul class="submenu">
+									<li>
+										<a href="infrastruture.html">Infrastruture</a>
+										<!-- <ul class="submenu">
 											<li><a href="pricing.html">Pricing Plans</a></li>
 											<li><a href="team.html">Creative Team</a></li>
 											<li class="has_child">
@@ -214,49 +265,57 @@
 												</ul>
 											</li>
 											<li><a href="faq.html">F.A.Q.</a></li>
-										</ul>
+										</ul> -->
 									</li>
-									<li class="has_child">
-										<a href="#!">Shop</a>
-										<ul class="submenu">
+									<li>
+										<a href="#!">Clients</a>
+										<!-- <ul class="submenu">
 											<li><a href="shop.html">Our Shop</a></li>
 											<li><a href="shop_details.html">Shop Details</a></li>
-										</ul>
+										</ul> -->
 									</li>
-									<li class="has_child">
+									<!-- <li class="has_child">
 										<a href="#!">News</a>
 										<ul class="submenu">
 											<li><a href="blog_grid.html">Blog Grid</a></li>
 											<li><a href="blog_standard.html">Blog Standard</a></li>
 											<li><a href="blog_details.html">Blog Details</a></li>
 										</ul>
-									</li>
-									<li><a href="contact.html">Conatct</a></li>    
+									</li> -->
+									<li><a href="contact.html">Contact</a></li>
 								</ul>
 							</nav>
 						</div>
-
-						<div class="col-lg-3">
-							<ul class="header_btns_group ul_li_right clearfix">
+	
+						<!-- <div class="col-lg-3">
+							<ul class="header_icon_btns ul_li_right clearfix">
 								<li>
-									<button type="button" class="action_btn search_btn bg_default_purple" data-toggle="collapse" data-target="#search_body_collapse" aria-expanded="false" aria-controls="search_body_collapse">
+									<button type="button" class="search_btn" data-toggle="collapse"
+										data-target="#search_body_collapse" aria-expanded="false"
+										aria-controls="search_body_collapse">
 										<i class="fal fa-search"></i>
 									</button>
 								</li>
 								<li>
-									<a class="custom_btn bg_default_yellow" href="contact.html">
-										get a quote 
-										<span><i class="fal fa-arrow-right"></i></span>
-									</a>
+									<button type="button" class="cart_btn">
+										<i class="fal fa-shopping-cart"></i>
+										<small class="cart_counter">2</small>
+									</button>
+								</li>
+								<li>
+									<button type="button" class="mobile_menu_btn">
+										<img src="assets/images/icons/bar_dot_1x.png"
+											srcset="assets/images/icons/bar_dot_2x.png 2x" alt="logo_not_found">
+									</button>
 								</li>
 							</ul>
-						</div>
-
+						</div> -->
+	
 					</div>
 				</div>
 			</div>
-
-			<div id="search_body_collapse" class="search_body_collapse collapse">
+	
+			<!-- <div id="search_body_collapse" class="search_body_collapse collapse">
 				<div class="search_body">
 					<div class="container maxw_1420">
 						<form action="#">
@@ -267,50 +326,54 @@
 						</form>
 					</div>
 				</div>
-			</div>
+			</div> -->
 		</header>
 		<!-- header_section - end
-		================================================== -->
-
-
-		<!-- main body - start
-		================================================== -->
-		<main>
-
-
-			<!-- sidebar mobile menu - start
 			================================================== -->
+	
+	
+		<!-- main body - start
+			================================================== -->
+		<main>
+	
+	
+			<!-- sidebar mobile menu - start
+				================================================== -->
 			<div class="sidebar-menu-wrapper">
 				<div class="sidebar_mobile_menu">
-
 					<span class="close_btn"><i class="fal fa-times"></i></span>
-
 					<div class="mobile_menu_list clearfix">
 						<ul class="ul_li_block clearfix">
 							<li class="active dropdown">
-								<a href="#!" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Home</a>
-								<ul class="dropdown-menu">
+							<li><a href="index.html">Home</a></li>
+							<!-- <a href="#!" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Home</a> -->
+							<!-- <ul class="dropdown-menu">
 									<li><a href="index_1.html">Home Page V.1</a></li>
 									<li><a href="index_2.html">Home Page V.2</a></li>
 									<li><a href="index_3.html">Home Page V.3</a></li>
-								</ul>
+								</ul> -->
 							</li>
 							<li><a href="about.html">About</a></li>
 							<li class="dropdown">
-								<a href="#!" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
+								<a href="portfolio_details.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Products</a>
 								<ul class="dropdown-menu">
-									<li><a href="service_1.html">Service V.1</a></li>
-									<li><a href="service_2.html">Service V.2</a></li>
-									<li><a href="service_details.html">Service Details</a></li>
+									<li><a href="service_1.html">Digital Printing</a></li>
+									<li><a href="service_2.html">Signage Solutions</a></li>
+									<li><a href="service_details.html">Laser/CNC Router Cuttings</a></li>
+									<li><a href="service_details.html">Events and Exhibitions</a></li>
+									<li><a href="service_details.html">3-D Letters</a></li>
+									<li><a href="service_details.html">NamePlates</a></li>
+									<li><a href="service_details.html">LED Slim Display Frames</a></li>
 								</ul>
 							</li>
-							<li class="dropdown">
+							<!-- <li class="dropdown">
 								<a href="#!" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
 								<ul class="dropdown-menu">
 									<li><a href="pricing.html">Pricing Plans</a></li>
 									<li><a href="team.html">Creative Team</a></li>
 									<li class="dropdown">
-										<a href="#!" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Our Portfolio</a>
+										<a href="#!" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Our
+											Portfolio</a>
 										<ul class="dropdown-menu">
 											<li><a href="portfolio_metro.html">Portfolio Metro</a></li>
 											<li><a href="portfolio_masonry.html">Portfolio Masonry</a></li>
@@ -319,36 +382,37 @@
 									</li>
 									<li><a href="faq.html">F.A.Q.</a></li>
 								</ul>
-							</li>
+							</li> -->
 							<li class="dropdown">
-								<a href="#!" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Shop</a>
+							<li><a href="infrastruture.html">Infrastructure</a></li>
+							<!-- <a href="#!" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Shop</a>
 								<ul class="dropdown-menu">
 									<li><a href="shop.html">Our Shop</a></li>
 									<li><a href="shop_details.html">Shop Details</a></li>
-								</ul>
+								</ul> -->
 							</li>
 							<li class="dropdown">
-								<a href="#!" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">News</a>
+							<li><a href="#">Clients</a></li>
+							<!-- <a href="#!" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">News</a>
 								<ul class="dropdown-menu">
 									<li><a href="blog_grid.html">Blog Grid</a></li>
 									<li><a href="blog_standard.html">Blog Standard</a></li>
-									<li><a href="blog_details.html">Blog Details</a></li>
-								</ul>
-							</li>
-							<li><a href="contact.html">Conatct</a></li>    
+									<li><a href="blog_details.html">Blog Details</a></li> -->
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+						</li>
 						</ul>
 					</div>
-
 				</div>
-				<div class="overlay"></div>
-			</div>
-			<!-- sidebar mobile menu - end
-			================================================== -->
+	
+	
+				<!-- sidebar mobile menu - end
+				================================================== -->
 
 
 			<!-- breadcrumb_section - start
 			================================================== -->
-			<section class="breadcrumb_section d-flex align-items-center clearfix" data-background="assets/images/breadcrumb/bg_01.jpg">
+			<!-- <section class="breadcrumb_section d-flex align-items-center clearfix" data-background="assets/images/breadcrumb/bg_01.jpg">
 				<div class="container">
 					<div class="row align-items-center justify-content-lg-between">
 						<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 wow fadeInLeft" data-wow-delay=".1s">
@@ -363,11 +427,12 @@
 						</div>
 					</div>
 				</div>
-			</section>
+			</section> -->
 			<!-- breadcrumb_section - end
 			================================================== -->
 
-
+			<br>
+			<br>
 			<!-- details_section - start
 			================================================== -->
 			<section class="details_section service_details sec_ptb_130 bg_gray clearfix">
@@ -540,7 +605,7 @@
 
 			<!-- pricing_section - start
 			================================================== -->
-			<section class="pricing_section sec_ptb_130 bg_gray deco_wrap clearfix">
+			<!-- <section class="pricing_section sec_ptb_130 bg_gray deco_wrap clearfix">
 				<div class="container">
 					<div class="row justify-content-center">
 						<div class="col-lg-7 col-md-7 col-sm-9 col-xs-12">
@@ -640,7 +705,7 @@
 				</div>
 				<div class="deco_image shape_2">
 					<img src="assets/images/pricing/shape_02.png" alt="image_not_found">
-				</div>
+				</div> -->
 			</section>
 			<!-- pricing_section - end
 			================================================== -->
@@ -653,174 +718,183 @@
 
 		<!-- footer_section - start
 		================================================== -->
-		<footer class="footer_section bg_default_blue text-white clearfix">
-			<div class="container">
+	<footer class="footer_section bg_default_blue text-white clearfix">
+		<div class="container">
 
-				<div class="footer_brand_area border_bottom clearfix">
-					<div class="row align-items-center justify-content-lg-between">
-						<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-							<div class="brand_logo">
+			<div class="footer_brand_area border_bottom clearfix">
+				<div class="row align-items-center justify-content-lg-between">
+					<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+						<div class="brand_logo">
+							<a href="#!">
+								<img src="assets/images/logo/only-logo.svg" srcset="assets/images/logo/only-logo.svg 2x"
+									alt="logo_not_found" style="height: 140px;">
+							</a>
+						</div>
+					</div>
+
+					<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+						<div class="brands_list">
+							<div class="logo_image">
 								<a href="#!">
-									<img src="assets/images/logo/logo_01_1x.png" srcset="assets/images/logo/logo_01_2x.png 2x" alt="logo_not_found">
+									<img src="assets/images/brands/img_05.png" alt="logo_not_found">
+								</a>
+							</div>
+
+							<div class="logo_image">
+								<a href="#!">
+									<img src="assets/images/brands/img_06.png" alt="logo_not_found">
+								</a>
+							</div>
+
+							<div class="logo_image">
+								<a href="#!">
+									<img src="assets/images/brands/img_07.png" alt="logo_not_found">
+								</a>
+							</div>
+
+							<div class="logo_image">
+								<a href="#!">
+									<img src="assets/images/brands/img_08.png" alt="logo_not_found">
 								</a>
 							</div>
 						</div>
-
-						<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
-							<div class="brands_list">
-								<div class="logo_image">
-									<a href="#!">
-										<img src="assets/images/brands/img_05.png" alt="logo_not_found">
-									</a>
-								</div>
-
-								<div class="logo_image">
-									<a href="#!">
-										<img src="assets/images/brands/img_06.png" alt="logo_not_found">
-									</a>
-								</div>
-
-								<div class="logo_image">
-									<a href="#!">
-										<img src="assets/images/brands/img_07.png" alt="logo_not_found">
-									</a>
-								</div>
-
-								<div class="logo_image">
-									<a href="#!">
-										<img src="assets/images/brands/img_08.png" alt="logo_not_found">
-									</a>
-								</div>
-							</div>
-						</div>
 					</div>
 				</div>
+			</div>
 
-				<div class="footer_widget_area clearfix">
-					<div class="row justify-content-lg-between justify-content-md-center justify-content-sm-center">
-						<div class="col-lg-2 col-md-4 col-sm-12 col-xs-12">
-							<div class="widget footer_useful_links">
-								<h3 class="footer_widget_title">Quick Links</h3>
-								<ul class="ul_li_block clearfix">
-									<li><a href="#!">Company History</a></li>
-									<li><a href="#!">Exclusive Team </a></li>
-									<li><a href="#!">Latest News</a></li>
-									<li><a href="#!">Recent Product</a></li>
-									<li><a href="#!">Win Awards</a></li>
-								</ul>
-							</div>
-						</div>
-
-						<div class="col-lg-2 col-md-4 col-sm-12 col-xs-12">
-							<div class="widget footer_useful_links">
-								<h3 class="footer_widget_title">Services</h3>
-								<ul class="ul_li_block clearfix">
-									<li><a href="#!">Design & Branding</a></li>
-									<li><a href="#!">3D Design & Printing</a></li>
-									<li><a href="#!">Offset Printing</a></li>
-									<li><a href="#!">Business Printing</a></li>
-									<li><a href="#!">Corporate Printing</a></li>
-								</ul>
-							</div>
-						</div>
-
-						<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-							<div class="widget recent_works_list">
-								<h3 class="footer_widget_title">Recent News</h3>
-								<ul class="ul_li_block clearfix">
-									<li>
-										<div class="small_blog clearfix">
-											<a class="item_image" target="_blank" href="blog_details.html">
-												<img src="assets/images/recent_works/img_01.png" alt="image_not_found">
-											</a>
-											<div class="item_content">
-												<h3 class="item_title">
-													<a target="_blank" href="blog_details.html">
-														Web Designers Can Help Restaura Move Into
-													</a>
-												</h3>
-												<span class="post_date"><i class="far fa-calendar-alt"></i> 25 Nov 2020</span>
-											</div>
-										</div>
-									</li>
-
-									<li>
-										<div class="small_blog clearfix">
-											<a class="item_image" target="_blank" href="blog_details.html">
-												<img src="assets/images/recent_works/img_02.png" alt="image_not_found">
-											</a>
-											<div class="item_content">
-												<h3 class="item_title">
-													<a target="_blank" href="blog_details.html">
-														Building Facial Recognits Web Application React
-													</a>
-												</h3>
-												<span class="post_date"><i class="far fa-calendar-alt"></i> 25 Nov 2020</span>
-											</div>
-										</div>
-									</li>
-								</ul>
-							</div>
-						</div>
-
-						<div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
-							<div class="widget footer_contact_form">
-								<h3 class="footer_widget_title">Contact Us</h3>
-								<p class="mb_30">
-									Sed ut persiatis unde omnis iste natusec error sit voluptatem accusantium
-								</p>
-								<form action="#">
-									<div class="form_item">
-										<input type="email" name="email" placeholder="Enter Your Email">
-										<button type="submit" class="submit_btn"><i class="far fa-arrow-right"></i></button>
-									</div>
-								</form>
-								<span class="footer_hotline"><i class="far fa-phone"></i> +012 (345) 678 99</span>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="footer_bottom_boxed clearfix">
-					<div class="row align-items-center justify-content-lg-between justify-content-md-between">
-						<div class="col-lg-6 col-md-6">
-							<p class="copyright_text mb-0">© Copyright 2020 All Right Reserved Design By <a class="author_links" target="_blank" href="https://themeforest.net/user/bdevs">BDevs</a></p>
-						</div>
-
-						<div class="col-lg-6 col-md-6">
-							<ul class="circle_social_links ul_li_right clearfix">
-								<li>
-									<a class="bg_facebook" href="#!">
-										<i class="fab fa-facebook-f"></i>
-										<i class="fab fa-facebook-f"></i>
-									</a>
-								</li>
-								<li>
-									<a class="bg_twitter" href="#!">
-										<i class="fab fa-twitter"></i>
-										<i class="fab fa-twitter"></i>
-									</a>
-								</li>
-								<li>
-									<a class="bg_youtube" href="#!">
-										<i class="fab fa-youtube"></i>
-										<i class="fab fa-youtube"></i>
-									</a>
-								</li>
-								<li>
-									<a class="bg_linkedin" href="#!">
-										<i class="fab fa-linkedin"></i>
-										<i class="fab fa-linkedin"></i>
-									</a>
-								</li>
+			<div class="footer_widget_area clearfix">
+				<div class="row justify-content-lg-between justify-content-md-center justify-content-sm-center">
+					<div class="col-lg-2 col-md-4 col-sm-12 col-xs-12">
+						<div class="widget footer_useful_links">
+							<h3 class="footer_widget_title">Quick Links</h3>
+							<ul class="ul_li_block clearfix">
+								<li><a href="#!">About Us</a></li>
+								<li><a href="#!">Infrastructure </a></li>
+								<li><a href="#!">Clients</a></li>
+								<li><a href="#!">Recent Product</a></li>
+								<li><a href="#!">Contact Us</a></li>
 							</ul>
 						</div>
 					</div>
+
+					<div class="col-lg-2 col-md-4 col-sm-12 col-xs-12">
+						<div class="widget footer_useful_links">
+							<h3 class="footer_widget_title">Services</h3>
+							<ul class="ul_li_block clearfix">
+								<li><a href="#!">Design & Branding</a></li>
+								<li><a href="#!">3D Design & Printing</a></li>
+								<li><a href="#!">Offset Printing</a></li>
+								<li><a href="#!">Business Printing</a></li>
+								<li><a href="#!">Corporate Printing</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<!-- <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+						<div class="widget recent_works_list">
+							<h3 class="footer_widget_title">Recent News</h3>
+							<ul class="ul_li_block clearfix">
+								<li>
+									<div class="small_blog clearfix">
+										<a class="item_image" target="_blank" href="blog_details.html">
+											<img src="assets/images/recent_works/img_01.png" alt="image_not_found">
+										</a>
+										<div class="item_content">
+											<h3 class="item_title">
+												<a target="_blank" href="blog_details.html">
+													Web Designers Can Help Restaura Move Into
+												</a>
+											</h3>
+											<span class="post_date"><i class="far fa-calendar-alt"></i> 25 Nov
+												2020</span>
+										</div>
+									</div>
+								</li>
+
+								<li>
+									<div class="small_blog clearfix">
+										<a class="item_image" target="_blank" href="blog_details.html">
+											<img src="assets/images/recent_works/img_02.png" alt="image_not_found">
+										</a>
+										<div class="item_content">
+											<h3 class="item_title">
+												<a target="_blank" href="blog_details.html">
+													Building Facial Recognits Web Application React
+												</a>
+											</h3>
+											<span class="post_date"><i class="far fa-calendar-alt"></i> 25 Nov
+												2020</span>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div> -->
+
+					<div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
+						<div class="widget footer_contact_form">
+							<h3 class="footer_widget_title">Contact Us</h3>
+							<p class="mb_30">
+								B-7, First Floor, Plot No 54,<br>
+								Rama Road Industrial Area,<br>
+								New Delhi - 110015.<br>
+								Kirti Nagar Metro Station - Blue line
+							</p>
+							<!-- 							<form action="#">
+								<div class="form_item">
+									<input type="email" name="email" placeholder="Enter Your Email">
+									<button type="submit" class="submit_btn"><i class="far fa-arrow-right"></i></button>
+								</div>
+							</form> -->
+							<span class="footer_hotline"><i class="far fa-phone"></i>+91 9891173264</span>
+						</div>
+					</div>
 				</div>
-				
 			</div>
-		</footer>
-		<!-- footer_section - end
+
+			<div class="footer_bottom_boxed clearfix">
+				<div class="row align-items-center justify-content-lg-between justify-content-md-between">
+					<div class="col-lg-6 col-md-6">
+						<p class="copyright_text mb-0">© Copyright 2020 All Right Reserved Design By <a
+								class="author_links" target="_blank" href="https://themeforest.net/user/bdevs">Blue
+								Priint</a>
+						</p>
+					</div>
+
+					<div class="col-lg-6 col-md-6">
+						<ul class="circle_social_links ul_li_right clearfix">
+							<li>
+								<a class="bg_facebook" href="#!">
+									<i class="fab fa-facebook-f"></i>
+									<i class="fab fa-facebook-f"></i>
+								</a>
+							</li>
+							<li>
+								<a class="bg_twitter" href="#!">
+									<i class="fab fa-twitter"></i>
+									<i class="fab fa-twitter"></i>
+								</a>
+							</li>
+							<li>
+								<a class="bg_youtube" href="#!">
+									<i class="fab fa-youtube"></i>
+									<i class="fab fa-youtube"></i>
+								</a>
+							</li>
+							<li>
+								<a class="bg_linkedin" href="#!">
+									<i class="fab fa-linkedin"></i>
+									<i class="fab fa-linkedin"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</footer>
+	<!-- footer_section - end
 		================================================== -->
 
 		
