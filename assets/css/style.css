@@ -8435,15 +8435,16 @@ blockquote .blockquote_admin i {
 /* ====================================================================================================
 9 - media screen and (max-width: 320px) - end
 ==================================================================================================== */
+/* Slider */
 body {
   background: aliceblue;
   }
   .section-padding{
-  padding:20px 0px;
+  padding:20px 0;
   }
   .brand-carousel {
   background: aliceblue;
-  margin-top: 6%;
+  margin-top: 4%;
   }
   .owl-dots {
   text-align: center;
@@ -8453,15 +8454,12 @@ body {
   display: inline-block;
   height: 15px !important;
   width: 15px !important;
-  background-color: #878787 !important;
+  background-color: #e2d5d5 !important;
   opacity: 0.8;
   border-radius: 50%;
   margin: 0 5px;
   }
   .owl-dot.active {
-  background-color: #000 !important;
+  background-color: #e2d5d5 !important;
   }
-  #cr img{
-    height: 100px;
-    width: 250px;
-  }
+  
