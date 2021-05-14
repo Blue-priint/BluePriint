@@ -5283,9 +5283,9 @@ blockquote .blockquote_admin i {
   max-width: 255px;
 }
 .cta_section .hand_image {
-  bottom: 0px;
-  right: 252px;
-  max-width: 345px;
+  bottom: 8rem;
+  right: 7rem;
+  max-width: 32rem;
 }
 
 .cta_content.ml__30 {
