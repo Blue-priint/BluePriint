@@ -7427,8 +7427,8 @@ blockquote .blockquote_admin i {
   }
 
   .contact_form .form_item input {
-    height: 60px;
-    padding: 0px 30px;
+    height: 30px;
+    padding: 0px 10px;
     padding-right: 45px;
   }
 
@@ -7437,7 +7437,7 @@ blockquote .blockquote_admin i {
   }
 
   .form_item .input_title {
-    font-size: 16px;
+    font-size: 12px;
   }
 
   .contact_information_list .item_icon {
@@ -7449,8 +7449,10 @@ blockquote .blockquote_admin i {
   }
 
   .contact_form .form_item textarea {
-    padding: 20px 30px;
+      min-height: 90px;
+      padding: 25px 15px;
   }
+  
 
   /* contact - end */
   /* portfolio details - start */
