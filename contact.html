@@ -506,21 +506,22 @@
 		function sendEmail() {
 
             var email = $('#input_email').val();
-            var message = $('#message').val();
-            var uname =  $('#message').val();
+            var message1 = $('#message').val();
+            var uname =  $('#input_user').val();
             var phoneNumber=$('#input_phone').val();
-            var body="Name: "+uname+" Email: "+email+" PhoneNumber: "+phoneNumber+" Message: "+message; 
+            var body=`Name: `+uname +`<br>`+ `Email: `+ email + `<br>`+ `PhoneNumber: ` + phoneNumber +`<br>`+"Message: "+ message1; 
 			Email.send({
 				Host: "smtp.gmail.com",
 				Username: "bluepriint2005@gmail.com",
-				Password: "priintblue2005",
+				Password: "uvxgrzhegsnsclbc",
 				To: "guptaaditya2512@gmail.com",
 				From: "bluepriint2005@gmail.com",
-				Subject: "User Form Entry",
+				Subject: "User Form Entry "+ uname,
 				Body: body,
 				
 			}).then(function (message) {
-					alert("mail sent successfully")
+					alert("mail sent successfully");
+					window.location.reload();
 				});
 		}
 		
