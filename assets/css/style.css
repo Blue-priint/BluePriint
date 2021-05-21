@@ -2401,38 +2401,21 @@ button {
 /* sidebar section - end */
 /* service category - start */
 .sb_service_category li:not(:last-child) {
-  margin-bottom: 25px;
-  padding-bottom: 25px;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
   border-bottom: 1px solid #eaeaea;
 }
 .sb_service_category a {
   display: block;
   line-height: 1;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   position: relative;
-  padding-right: 70px;
+  padding-right: 20px;
   color: #222222;
   font-family: "Rubik", sans-serif;
 }
-.sb_service_category a:before {
-  top: 0px;
-  bottom: 0px;
-  right: 70px;
-  content: "";
-  width: 1px;
-  position: absolute;
-  background-color: #dcdcdc;
-}
-.sb_service_category a:after {
-  top: 50%;
-  right: 0px;
-  content: "";
-  font-weight: 400;
-  position: absolute;
-  transform: translateY(-50%);
-  font-family: "Font Awesome 5 Pro";
-}
+
 .sb_service_category a:hover {
   color: #ff4328;
 }
@@ -3515,7 +3498,7 @@ button {
 /* service page - start
 ==================================================================================================== */
 /* service section - start */
-.service_section.bg_gray {
+.product_medium.bg_gray {
   background-color: #f5f6fa;
 }
 
