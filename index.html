@@ -707,7 +707,8 @@
 							</div>
 						</div>
 					</div>
-					<div class="brand-carousel section-padding owl-carousel">
+					<marquee behavior="scroll" width="100%" direction="left" >	
+						<div class="client-carousel section-padding owl-carousel">
 						<div class="single-logo">
 							<img src="assets/images/brands/AECC (1).jpg" alt="">
 						</div>
@@ -780,6 +781,8 @@
 						</div>
 					
 					</div>
+				</marquee>
+				
 			</section>
 
 
@@ -985,10 +988,10 @@
 
 
 	<script>
-		$('.brand-carousel').owlCarousel({
+		$('.client-carousel').owlCarousel({
 			loop: true,
-			margin: 10,
-			autoplay: true,
+			margin: 30,
+			autoplay: false,
 
 			responsive: {
 				0: {
@@ -1003,6 +1006,7 @@
 				
 			}
 		})
+		
 
 	</script>
 </body>
