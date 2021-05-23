@@ -5504,7 +5504,7 @@ blockquote .blockquote_admin i {
   content: "";
   opacity: 0.85;
   position: absolute;
-  background-color: #0b0f4f;
+  background: linear-gradient(#0707ca,#5e5eda);
 }
 .home_three_slider .owl-dots {
   left: 50%;
