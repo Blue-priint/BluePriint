@@ -137,7 +137,7 @@ strong, span, small, label, i {
   height: 10px;
   opacity: 0.4;
   background: #ff4328;
-  transition: 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: 0.80s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 .owl-theme .owl-dots .owl-dot:hover span, .owl-theme .owl-dots .owl-dot.active span {
   opacity: 1;
@@ -172,7 +172,7 @@ strong, span, small, label, i {
   border-radius: 100%;
   color: #222222;
   border: 2px solid #dbdbdb;
-  transition: 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: 0.80s cubic-bezier(0.165, 0.84, 0.44, 1);
   font-family: "Font Awesome 5 Pro";
 }
 .owl-theme .owl-nav .owl-next:hover,
