@@ -35,15 +35,15 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-::selection {
+/* ::selection {
   color: #ffffff;
-  background-color: #ff4328;
+ 
 }
 
 ::-moz-selection {
   color: #ffffff;
-  background-color: #ff4328;
-}
+
+} */
 
 main {
   overflow: hidden;
@@ -945,7 +945,7 @@ i {
   line-height: 1;
   font-size: 24px;
   margin-bottom: 25px;
-  color: #2926e2;
+  color: rgb(83,91,164);
   font-weight: bold;
   font-family: 'Playfair Display', serif;
 }

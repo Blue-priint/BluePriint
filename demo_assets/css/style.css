@@ -324,7 +324,7 @@ strong, span, small, label, i {
   line-height: 1;
   font-size: 24px;
   margin-bottom: 25px;
-  color: #2926e2;
+  color: rgb(83,91,164);
   font-family: 'Playfair Display', serif;
 }
 .section_title .big_title {
