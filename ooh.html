@@ -50,6 +50,107 @@
 			width: 350px;
 
 		}
+
+		/* 
+		#myImg {
+			border-radius: 5px;
+			cursor: pointer;
+			transition: 0.3s;
+		} */
+
+		#ins img:hover {
+			opacity: 0.7;
+		}
+
+		/* The Modal (background) */
+		.modal {
+			display: none;
+			/* Hidden by default */
+			position: fixed;
+			/* Stay in place */
+			z-index: 1;
+			/* Sit on top */
+			padding-top: 200px;
+			/* Location of the box */
+			left: 0;
+			top: 0;
+			width: 100%;
+			/* Full width */
+			height: 100%;
+			/* Full height */
+			overflow: auto;
+			/* Enable scroll if needed */
+			background-color: rgb(0, 0, 0);
+			/* Fallback color */
+			background-color: rgba(0, 0, 0, 0.9);
+
+			z-index: 10;
+
+			/* Black w/ opacity */
+		}
+
+		/* Modal Content (Image) */
+		.modal-content {
+			margin: auto;
+			display: block;
+			width: 80%;
+			max-width: 700px;
+			height: 500px;
+		}
+
+		/* Caption of Modal Image (Image Text) - Same Width as the Image */
+		#caption {
+			margin: auto;
+			display: block;
+			width: 80%;
+			max-width: 700px;
+			text-align: center;
+			color: #ccc;
+			padding: 10px 0;
+			height: 150px;
+		}
+
+		/* Add Animation - Zoom in the Modal */
+		.modal-content,
+		#caption {
+			animation-name: zoom;
+			animation-duration: 0.6s;
+		}
+
+		@keyframes zoom {
+			from {
+				transform: scale(0)
+			}
+
+			to {
+				transform: scale(1)
+			}
+		}
+
+		/* The Close Button */
+		.close {
+			position: absolute;
+			top: 200px;
+			right: 35px;
+			color: #f1f1f1;
+			font-size: 40px;
+			font-weight: bold;
+			transition: 0.3s;
+		}
+
+		.close:hover,
+		.close:focus {
+			color: #bbb;
+			text-decoration: none;
+			cursor: pointer;
+		}
+
+		/* 100% Image Width on Smaller Screens */
+		@media only screen and (max-width: 700px) {
+			.modal-content {
+				width: 100%;
+			}
+		}
 	</style>
 </head>
 
@@ -338,9 +439,9 @@
 						<div class="col-lg-8 col-md-8 col-sm-10 col-xs-12">
 							<div class="section_title text-center mb_50 wow fadeInUp2" style="margin-top: 100px;"
 								data-wow-delay=".1s">
-								 <h2 class="big_title mb-0" id="op">
+								<h2 class="big_title mb-0" id="op">
 									Out of Home Advertising
-									</h2>
+								</h2>
 
 							</div>
 							<p class="mb_30 wow fadeInUp2"
@@ -360,127 +461,6 @@
 							</p>
 							<div class="row mb_80 justify-content-lg-between justify-content-md-center justify-content-sm-center"
 								id="ins">
-								<div class="col-lg-4 col-md-5 col-sm-6 col-xs-12 wow fadeInUp2" data-wow-delay=".3s">
-									<div class="service_card clearfix">
-										<a class="item_image" href="#" id="set">
-											<img src="assets/images/Bluepriint Images/Printing/image11.jpg"
-												alt="image_not_found">
-										</a>
-										<div class="item_content">
-
-											<h3 class="item_title mb-0"> Retro Flex – Day / Night</h3>
-
-										</div>
-									</div>
-								</div>
-								<div class="col-lg-4 col-md-5 col-sm-6 col-xs-12 wow fadeInUp2" data-wow-delay=".3s">
-									<div class="service_card clearfix">
-										<a class="item_image" href="#" id="set">
-											<img src="assets/images/Bluepriint Images/Printing/image12.jpg"
-												alt="image_not_found">
-										</a>
-										<div class="item_content">
-
-											<h3 class="item_title mb-0">Retro Flex – Day / Night</h3>
-
-										</div>
-									</div>
-								</div>
-								<div class="col-lg-4 col-md-5 col-sm-6 col-xs-12 wow fadeInUp2" data-wow-delay=".3s">
-									<div class="service_card clearfix">
-										<a class="item_image" href="#" id="set">
-											<img src="assets/images/Bluepriint Images/Printing/image13.jpg"
-												alt="image_not_found">
-										</a>
-										<div class="item_content">
-
-											<h3 class="item_title mb-0">Solvent – Backlit Flex
-											</h3>
-
-										</div>
-									</div>
-								</div>
-								<div class="col-lg-4 col-md-5 col-sm-6 col-xs-12 wow fadeInUp2" data-wow-delay=".3s">
-									<div class="service_card clearfix">
-										<a class="item_image" href="#" id="set">
-											<img src="assets/images/Bluepriint Images/Printing/image14.jpg"
-												alt="image_not_found">
-										</a>
-										<div class="item_content">
-
-											<h3 class="item_title mb-0">Solvent – Backlit Flex
-											</h3>
-
-										</div>
-									</div>
-								</div>
-								<div class="col-lg-4 col-md-5 col-sm-6 col-xs-12 wow fadeInUp2" data-wow-delay=".3s">
-									<div class="service_card clearfix">
-										<a class="item_image" href="#" id="set">
-											<img src="assets/images/Bluepriint Images/Printing/unnamed.jpg"
-												alt="image_not_found">
-										</a>
-										<div class="item_content">
-
-											<h3 class="item_title mb-0">Latex-Vinyl
-											</h3>
-
-										</div>
-									</div>
-								</div>
-								<div class="col-lg-4 col-md-5 col-sm-6 col-xs-12 wow fadeInUp2" data-wow-delay=".3s">
-									<div class="service_card clearfix">
-										<a class="item_image" href="#" id="set">
-											<img src="assets/images/Bluepriint Images/Printing/image9.jpg"
-												alt="image_not_found">
-										</a>
-										<div class="item_content">
-											<!-- <span class="item_type"></span> -->
-											<h3 class="item_title mb-0">Solvent- Vinyl</h3>
-
-										</div>
-									</div>
-								</div>
-								<div class="col-lg-4 col-md-5 col-sm-6 col-xs-12 wow fadeInUp2" data-wow-delay=".3s">
-									<div class="service_card clearfix">
-										<a class="item_image" href="#" id="set">
-											<img src="assets/images/Bluepriint Images/Printing/Latex Vinyl 2.jpeg"
-												alt="image_not_found">
-										</a>
-										<div class="item_content">
-											<!-- <span class="item_type"></span> -->
-											<h3 class="item_title mb-0">Latex- Vinyl</h3>
-
-										</div>
-									</div>
-								</div>
-								<div class="col-lg-4 col-md-5 col-sm-6 col-xs-12 wow fadeInUp2" data-wow-delay=".3s">
-									<div class="service_card clearfix">
-										<a class="item_image" href="#" id="set">
-											<img src="assets/images/Bluepriint Images/Printing/Latex Vinyl 3.jpeg"
-												alt="image_not_found">
-										</a>
-										<div class="item_content">
-											<!-- <span class="item_type"></span> -->
-											<h3 class="item_title mb-0">Latex- Vinyl</h3>
-
-										</div>
-									</div>
-								</div>
-								<div class="col-lg-4 col-md-5 col-sm-6 col-xs-12 wow fadeInUp2" data-wow-delay=".3s">
-									<div class="service_card clearfix">
-										<a class="item_image" href="#" id="set">
-											<img src="assets/images/Bluepriint Images/Printing/Latex Vinyl.jpeg"
-												alt="image_not_found">
-										</a>
-										<div class="item_content">
-											<!-- <span class="item_type"></span> -->
-											<h3 class="item_title mb-0">Latex- Vinyl</h3>
-
-										</div>
-									</div>
-								</div>
-
 
 
 
@@ -607,6 +587,17 @@
 
 		</div>
 	</footer>
+	<div id="myModal" class="modal">
+
+		<!-- The Close Button -->
+		<span class="close">&times;</span>
+
+		<!-- Modal Content (The Image) -->
+		<img class="modal-content" id="img01">
+
+		<!-- Modal Caption (Image Text) -->
+		<!-- <div id="caption"></div> -->
+	</div>
 	<!-- footer_section - end
 		================================================== -->
 
@@ -656,130 +647,79 @@
 	<script>
 		function myFunction(value) {
 			if (value == 1) {
-				document.getElementById('ins').innerHTML = `<div class="col-lg-12 col-md-6 col-sm-6 col-xs-12 wow fadeInUp2" data-wow-delay=".3s">
-									<div class="service_card clearfix">
-										<a class="item_image"  href="#" id="set">
-											<img src="assets/images/Bluepriint Images/Printing/image9.jpg" alt="image_not_found">
-										</a>
-										<div class="item_content">
-											<!-- <span class="item_type"></span> -->
-											<h3 class="item_title mb-0">Solvent Vinyl</h3>
-											
-										</div>
-									</div>
-								</div>`
+				document.getElementById('ins').innerHTML = ``
 
 			}
 			else if (value == 2) {
-				document.getElementById('ins').innerHTML = `<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 wow fadeInUp2" data-wow-delay=".3s">
-									<div class="service_card clearfix">
-										<a class="item_image"  href="#" id="set">
-											<img src="assets/images/Bluepriint Images/Printing/unnamed.jpg" alt="image_not_found">
-										</a>
-										<div class="item_content">
-											<!-- <span class="item_type"></span> -->
-											<h3 class="item_title mb-0">Latex- Fleet Vinyl</h3>
-											
-										</div>
-									</div>
-								</div><div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 wow fadeInUp2" data-wow-delay=".3s">
-									<div class="service_card clearfix">
-										<a class="item_image"  href="#" id="set">
-											<img src="assets/images/Bluepriint Images/Printing/Latex Vinyl 2.jpeg" alt="image_not_found">
-										</a>
-										<div class="item_content">
-											<!-- <span class="item_type"></span> -->
-											<h3 class="item_title mb-0">Latex- Fleet Vinyl</h3>
-											
-										</div>
-									</div>
-								</div>
-								<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 wow fadeInUp2" data-wow-delay=".3s">
-									<div class="service_card clearfix">
-										<a class="item_image"  href="#" id="set">
-											<img src="assets/images/Bluepriint Images/Printing/Latex Vinyl 3.jpeg" alt="image_not_found">
-										</a>
-										<div class="item_content">
-											<!-- <span class="item_type"></span> -->
-											<h3 class="item_title mb-0">Latex- Fleet Vinyl</h3>
-											
-										</div>
-									</div>
-								</div>
-								<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 wow fadeInUp2" data-wow-delay=".3s">
-									<div class="service_card clearfix">
-										<a class="item_image"  href="#" id="set">
-											<img src="assets/images/Bluepriint Images/Printing/Latex Vinyl.jpeg" alt="image_not_found">
-										</a>
-										<div class="item_content">
-											<!-- <span class="item_type"></span> -->
-											<h3 class="item_title mb-0">Latex- Fleet Vinyl</h3>
-											
-										</div>
-									</div>
-								</div>
+				document.getElementById('ins').innerHTML = `
 								
+								
+							
 								`
 
 			}
 			else if (value == 3) {
-				document.getElementById('ins').innerHTML = `<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 wow fadeInUp2" data-wow-delay=".3s">
-									<div class="service_card clearfix">
-										<a class="item_image"  href="#" id="set">
-											<img src="assets/images/Bluepriint Images/Printing/image14.jpg" alt="image_not_found">
-										</a>
-										<div class="item_content">
-											<!-- <span class="item_type"></span> -->
-											<h3 class="item_title mb-0">Solvent Backlit Flex</h3>
-											
-										</div>
-									</div>
-								</div>
-								<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 wow fadeInUp2" data-wow-delay=".3s">
-									<div class="service_card clearfix">
-										<a class="item_image"  href="#" id="set">
-											<img src="assets/images/Bluepriint Images/Printing/image13.jpg" alt="image_not_found">
-										</a>
-										<div class="item_content">
-											<!-- <span class="item_type"></span> -->
-											<h3 class="item_title mb-0">Solvent Backlit Flex</h3>
-											
-										</div>
-									</div>
-								</div>`
+				document.getElementById('ins').innerHTML = ``
 
 			}
 			else if (value == 4) {
-				document.getElementById('ins').innerHTML = `<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 wow fadeInUp2" data-wow-delay=".3s">
-									<div class="service_card clearfix">
-										<a class="item_image"  href="#" id="set">
-											<img src="assets/images/Bluepriint Images/Printing/image11.jpg" alt="image_not_found">
-										</a>
-										<div class="item_content">
-											<!-- <span class="item_type"></span> -->
-											<h3 class="item_title mb-0">Solvent Retro Flex</h3>
-											
-										</div>
-									</div>
-								</div>
-								<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 wow fadeInUp2" data-wow-delay=".3s">
-									<div class="service_card clearfix">
-										<a class="item_image"  href="#" id="set">
-											<img src="assets/images/Bluepriint Images/Printing/image12.jpg" alt="image_not_found">
-										</a>
-										<div class="item_content">
-											<!-- <span class="item_type"></span> -->
-											<h3 class="item_title mb-0">Solvent Retro Flex</h3>
-											
-										</div>
-									</div>
-								</div>`
+				document.getElementById('ins').innerHTML = ``
 
+			}
+			else if (value == 5) {
+				document.getElementById('ins').innerHTML = ``
+
+			}
+			else if (value == 6) {
+				document.getElementById('ins').innerHTML = ``
+
+			}
+			else if (value == 7) {
+				document.getElementById('ins').innerHTML = `
+							`
+
+			}
+			else if (value == 8) {
+				document.getElementById('ins').innerHTML = `
+							`
+
+			}
+			else if (value == 9) {
+				document.getElementById('ins').innerHTML = `
+							`
+
+			}
+			else if (value == 10) {
+				document.getElementById('ins').innerHTML = `	
+							`
+
+			}
+		}
+		function enlarge(id) {
+
+			var modal = document.getElementById("myModal");
+
+			// Get the image and insert it inside the modal - use its "alt" text as a caption
+			var img = document.getElementById(id);
+
+			var modalImg = document.getElementById("img01");
+			// var captionText = document.getElementById("caption");
+			img.onclick = function () {
+				modal.style.display = "block";
+				modalImg.src = this.src;
+
+			}
+
+			// Get the <span> element that closes the modal
+			var span = document.getElementsByClassName("close")[0];
+
+			// When the user clicks on <span> (x), close the modal
+			span.onclick = function () {
+				modal.style.display = "none";
 			}
 		}
 
 	</script>
-
 </body>
 
 </html>
