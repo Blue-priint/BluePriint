@@ -35,14 +35,14 @@ body {
 
 ::selection {
   color: #3222c9;
-  background-color: #ffffff;
+  background-color: transparent;
 }
 
 ::-moz-selection {
   color: #3222c9;
-  background-color: #ffffff;
-}
+  background-color: transparent;
 
+}
 main {
   overflow: hidden;
   position: relative;
