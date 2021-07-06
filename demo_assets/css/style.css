@@ -34,13 +34,13 @@ body {
 }
 
 ::selection {
-  color: #ffffff;
-  background-color: #ff4328;
+  color: #3222c9;
+  background-color: #ffffff;
 }
 
 ::-moz-selection {
-  color: #ffffff;
-  background-color: #ff4328;
+  color: #3222c9;
+  background-color: #ffffff;
 }
 
 main {
@@ -1039,33 +1039,7 @@ button {
   font-size: 20px;
 }
 
-/* features section - end */
-/* body content - end
-==================================================================================================== */
-/* ================================================== 
-*	Project Name 	:  Printem - HTML5 Template
-*	File 			:  Responsive CSS Base
-*	Version 		:  1.0.0
-*	Last change 	:  05 Octobar 2020
-*	Author 			:  BDevs (https://themeforest.net/user/bdevs)
-*	Developer:		:  Rakibul Islam Dewan
-*	css code for responsive layout To make Responsive
 
-==================================================
-
-*	1 - media screen and (max-width: 1440px)
-*	2 - media screen and (max-width: 1280px)
-*	3 - media screen and (max-width: 1199px)
-*	4 - media screen and (max-width: 991px)
-*	5 - media screen and (max-width: 767px)
-*	6 - media screen and (max-width: 680px)
-*	7 - media screen and (max-width: 580px)
-*	8 - media screen and (max-width: 480px)
-*	9 - media screen and (max-width: 320px)
-================================================== */
-/*  ====================================================================================================
-1 - media screen and (max-width: 1440px) - start
-==================================================================================================== */
 @media screen and (max-width: 1560px) {
   .header_element_images {
     width: 650px;

@@ -35,16 +35,15 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-/* ::selection {
-  color: #ffffff;
- 
+::selection {
+  color: #3222c9;
+  background-color: #ffffff;
 }
 
 ::-moz-selection {
-  color: #ffffff;
-
-} */
-
+  color: #3222c9;
+  background-color: #ffffff;
+}
 main {
   overflow: hidden;
   position: relative;
